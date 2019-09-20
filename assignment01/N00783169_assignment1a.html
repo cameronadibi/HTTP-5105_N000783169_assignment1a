@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css" />
+</head>
+<body>
+    <form method="POST" action="https://postman-echo.com/post">
+        <section>
+            <h1>Hotel Booking</h1>
+            <div>
+                <label>Full Name:</label>
+                <input type="text" id="guest_fullname" name="guest_fullname" />
+            </div>
+            <div>
+                <label>Choose Honorific</label>
+                <div>
+                    <input type="radio" id="htlm_honorific_option1" name="html_guest_honorific" value="mr" /><label for="html_honorific_option1">Mr.</label>
+                </div>
+                <div>
+                    <input type="radio" id="htlm_honorific_option2" name="html_guest_honorific" value="ms" /><label for="html_honorific_option2">Ms.</label>
+                </div>
+                <div>
+                    <input type="radio" id="htlm_honorific_option3" name="html_guest_honorific" value="mrs" /><label for="html_honorific_option3">Mrs.</label>
+                </div>
+                <div>
+                    <input type="radio" id="htlm_honorific_option4" name="html_guest_honorific" value="dr" /><label for="html_honorific_option4">Dr.</label>
+                </div>
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="text" id="guest_email" name="guest_email" />
+            </div>
+        </section>
+        <section>
+            <h2>What kind of room are you looking for?</h2>
+            <select id="room_selection" name="room_selection">
+                <option value="roomselection1">Single</option>
+                <option value="roomselection2">Double</option>
+                <option value="roomselectoin3">Triple</option>
+                <option value="roomselection4">Quad</option>
+                <option value="roomselection5">King</option>
+                <option value="roomselectoin6">Queen</option>
+                <option value="roomselection7">Twin</option>
+            </select>
+        </section>
+        <section>
+            <h2>How many people are staying?</h2>
+            <div>
+                <input type="radio" id="numberofguests1" name="numberofguests" value="one" /><label for="numberofguests1">1</label>
+            </div>
+            <div>
+                <input type="radio" id="numberofguests2" name="numberofguests" value="two" /><label for="numberofguests2">2</label>
+            </div>
+            <div>
+                <input type="radio" id="numberofguests3" name="numberofguests" value="three" /><label for="numberofguests3">3</label>
+            </div>
+            <div>
+                <input type="radio" id="numberofguests4" name="numberofguests" value="four" /><label for="numberofguests4">4</label>
+            </div>
+            <div>
+                <input type="radio" id="numberofguests5" name="numberofguests" value="five" /><label for="numberofguests5">5+</label>
+            </div>
+        </section>
+        <section>
+            <h2>What would you like included in your room?</h2>
+            <div>
+                <input type="checkbox" value="roomservice" id="roomoptions1" name="roomoptions1" /><label for="roomoptions1">Room Service</label>
+            </div>
+            <div>
+                <input type="checkbox" value="view" id="roomoptions2" name="roomoptions2" /><label for="roomoptions2">A View</label>
+            </div>
+            <div>
+                <input type="checkbox" value="pulloutbed" id="roomoptions3" name="roomoptions3" /><label for="roomoptions3">Pull-Out Bed</label>
+            </div>
+            <div>
+                <input type="checkbox" value="channels" id="roomoptions4" name="roomoptions4" /><label for="roomoptions4">TV Entertainment Channels</label>
+            </div>
+        </section>
+        <section>
+            <h2>Which packaged deals would you like?</h2>
+            <div>
+                <input type="checkbox" value="breakfast" id="roomoptions1" name="packages1" /><label for="packages1">Breakfast Included</label>
+            </div>
+            <div>
+                <input type="checkbox" value="lunch" id="roomoptions2" name="packages2" /><label for="packages2">Lunch Included</label>
+            </div>
+            <div>
+                <input type="checkbox" value="dinner" id="roomoptions3" name="packages3" /><label for="packages3">Dinner Included</label>
+            </div>
+            <div>
+                <input type="checkbox" value="breakfastanddinner" id="roomoptions4" name="packages4" /><label for="packages4">Breakfast + Dinner Included</label>
+            </div>
+        </section>
+        <input type="submit" value="Enter"/>
+    </form>
+</body>
+</html>
