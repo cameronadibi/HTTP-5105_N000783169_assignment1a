@@ -124,9 +124,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="N00783169_assignment1a.aspx" />
+    <Content Include="hotelbooking.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="N00783169_assignment1a.html" />
+    <Content Include="hotelbooking.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -210,12 +210,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="N00783169_assignment1a.aspx.cs">
-      <DependentUpon>N00783169_assignment1a.aspx</DependentUpon>
+    <Compile Include="hotelbooking.aspx.cs">
+      <DependentUpon>hotelbooking.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="N00783169_assignment1a.aspx.designer.cs">
-      <DependentUpon>N00783169_assignment1a.aspx</DependentUpon>
+    <Compile Include="hotelbooking.aspx.designer.cs">
+      <DependentUpon>hotelbooking.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

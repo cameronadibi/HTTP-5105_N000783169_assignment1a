@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="N00783169_assignment1a.aspx.cs" Inherits="assignment01.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="hotelbooking.aspx.cs" Inherits="assignment01.WebForm1" %>
 
 <!DOCTYPE html>
 
