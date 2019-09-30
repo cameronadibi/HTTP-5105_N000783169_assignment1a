@@ -96,5 +96,28 @@
         </section>
         <input type="submit" value="Enter"/>
     </form>
+
+    <script>
+        function hotelbooking();
+        var valid = 1;
+        var error = 0;
+
+        var guest_fullname = document.getElementById('guest_fullname');
+        var guest_email = document.getElementById('guest_email');
+        var guest_roomselection = document.getElementById('guest_roomselection');
+
+           if (guest_fullname.value == "") {
+                valid = 0;
+                error += "Please enter your full name.<br>";
+        }
+           if (guest_email.value == "") {
+                valid = 0;
+                error += "Please enter your email.<br>";
+        }
+            if (guest_roomselection.value == "") {
+                valid = 0;
+                error += "Please select an option.<br>";
+        }
+    </script>
 </body>
 </html>

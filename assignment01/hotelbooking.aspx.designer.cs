@@ -40,39 +40,66 @@ namespace assignment01 {
         protected global::System.Web.UI.WebControls.RadioButtonList aspx_guesthonorific;
         
         /// <summary>
-        /// aspx_room_selection control.
+        /// guest_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList aspx_room_selection;
+        protected global::System.Web.UI.WebControls.TextBox guest_email;
         
         /// <summary>
-        /// aspx_numberofguests control.
+        /// guest_roomselection control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList aspx_numberofguests;
+        protected global::System.Web.UI.WebControls.DropDownList guest_roomselection;
         
         /// <summary>
-        /// aspx_roomoptions control.
+        /// guests_total control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_roomoptions;
+        protected global::System.Web.UI.WebControls.RadioButtonList guests_total;
         
         /// <summary>
-        /// aspx_packages control.
+        /// guest_roomoptions control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_packages;
+        protected global::System.Web.UI.WebControls.CheckBoxList guest_roomoptions;
+        
+        /// <summary>
+        /// guest_packages control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList guest_packages;
+        
+        /// <summary>
+        /// guest_pillows control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox guest_pillows;
+        
+        /// <summary>
+        /// guest_address control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox guest_address;
     }
 }
